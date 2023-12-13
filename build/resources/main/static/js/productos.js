@@ -1,4 +1,4 @@
-/*let productos;
+let productos;
 // Aquí se debe cambiar el URL del servicio en el BackEnd
 const URL_MAIN ='/api/productos/';
 function addItems(div_Productos) {
@@ -14,9 +14,9 @@ function addItems(div_Productos) {
                 <div class="card" style="width: 18rem;">
                 <img src=${p.img} class="card-img-top" alt="image">
                 <div class="card-body">
-                    <h5 class="card-title">${p.Nombre}</h5>
-                    <p class="card-text">${p.Descripción}</p>
-                    <p class="card-text1">${p.Precio}</p>
+                    <h5 class="card-title">${p.nombre}</h5>
+                    <p class="card-text">${p.descripción}</p>
+                    <p class="card-text1">${p.precio}</p>
                 </div>
                     <a href="#" class="btn btn-primary configBtn">Agregar</a>
             </div>
@@ -36,4 +36,4 @@ window.addEventListener("load", function (){
     addItems(div);
    
 });
-*/
+
