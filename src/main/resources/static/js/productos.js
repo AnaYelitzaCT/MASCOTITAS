@@ -1,4 +1,4 @@
-let productos;
+/*let productos;
 // Aquí se debe cambiar el URL del servicio en el BackEnd
 const URL_MAIN ='/api/productos/';
 function addItems(div_Productos) {
@@ -36,4 +36,4 @@ window.addEventListener("load", function (){
     addItems(div);
    
 });
-
+*/
