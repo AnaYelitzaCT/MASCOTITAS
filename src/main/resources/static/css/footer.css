@@ -1,0 +1,41 @@
+.piePagina{
+    color: white;
+    font-size: 18px;
+    background-color: #8c758c;
+    position:relaive;
+    margin-bottom: 0;
+  
+}
+
+.piePagina a{
+    text-decoration: none;
+    color: white;
+}
+
+.piePagina a:hover{
+    color: black;
+    text-decoration: none;
+}
+ @keyframes perrito{
+    from{
+        opacity: 1;
+
+    }
+    to{
+        opacity: 0;
+    }
+}
+.icono1 {
+    animation-name: perrito;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.iconos{
+    padding-top: 40px;
+    padding-left: 5px;
+    
+    
+}
+

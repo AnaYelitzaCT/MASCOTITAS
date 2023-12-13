@@ -1,0 +1,344 @@
+/* css del forumlario  */
+/**
+* ! reglas de estilo para la sección del formulario
+**/
+.form-control{
+  background-color: #f2796e;
+}
+.registro{
+  text-align: center;
+  color: #f2796e;
+  font-size: 35px;
+
+}
+#preview {
+  width: 50%; /* Ajusta el ancho a lo que necesites */
+  height: 50%; /* Altura automática para mantener la proporción original */
+  image-rendering:optimizeQuality; /* Mejora la nitidez de la imagen */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.content{
+  background-color: #874F81;
+  background: linear-gradient(purple, 10%, pink);
+}
+
+/**
+* ! style rules for content section
+**/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2796e;
+  width: 55%;
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+.image {
+  background-image: url("../src/paraForm.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* border: 2px solid black; */
+  height: 65%;
+}
+
+
+.text {
+  text-align: center;
+  color: darkmagenta;
+  font-size: 28px;
+}
+
+/**
+* ! style rules for form section
+**/
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  /* max-width: 400px; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form div input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form div {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border: 2px solid #f2796e;
+}
+
+/**
+* ! style rules for social section
+**/
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.btn-1,
+.btn-2 {
+  padding: 10px 5px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #c4c4c4;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.btn-2 {
+  background-color: #4f70b5;
+  color: white;
+}
+
+.or {
+  text-align: center;
+}
+
+.question {
+  font-size: 15px;
+}
+
+span {
+  color: #f2796e;
+  cursor: pointer;
+}
+
+/**
+* ! style rules for form icons
+**/
+
+form div i {
+  position: absolute;
+  padding: 10px;
+}
+
+.success-icon,
+.failure-icon {
+  right: 0;
+  opacity: 0;
+}
+
+.failure-icon,
+.error {
+  color: red;
+}
+
+.success-icon {
+  color: green;
+}
+
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+
+/**
+* ! style rules for button 
+**/
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/**
+* ! Media Queries are here
+**/
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  form,
+  .content {
+    width: 100%;
+  }
+
+  .btn {
+    flex-direction: column;
+  }
+  .image {
+    height: 70vh;
+  }
+}
+
+
+
+/* termina css del formulario */
+
+
+body{
+  background-color: #E1E1E1;
+}
+.caja{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+  
+} 
+.btn-primary{
+  color: white;
+  background: linear-gradient(purple, 10%, pink);
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+}
+
+
+
+.imgPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicioSesion{
+  width: 719px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid #C6A6A6;
+  background-color: #C6A6A6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-2{
+  width: 719px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid #C6A6A6;
+  background-color: #C6A6A6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+
+@media (max-width: 768px) {
+  .btn-2 {
+      padding: 15px 105px;
+  }
+  .fcb{
+      padding: 15px 170px;
+
+  }
+  .x{
+      padding: 15px 170px;
+
+  }
+  .instagram{
+      padding: 15px 170px;
+
+  }
+}
+
+
+.fondo{
+  background: #D7CFCF;
+}
+
+.parte{
+  
+  background: #8A7488;
+}
+
+.ubicacion {
+
+  background-color: #C6A6A6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center; 
+  color: white;
+  border: #8A7488;
+  justify-content: center;
+  
+}
+
+
+.section{
+  background-color: #8A7488;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.section div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 10px 0;
+}
+
+
+
+
+
+
+.h1{
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 300%;
+  color: #8A7488;
+  font-weight: bold;
+}
