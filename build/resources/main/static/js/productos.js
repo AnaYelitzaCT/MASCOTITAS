@@ -12,7 +12,7 @@ function addItems(div_Productos) {
             Array.from(json).forEach((p, index) => {
                 div_Productos.innerHTML += `
                 <div class="card" style="width: 18rem;">
-                <img src=${p.image} class="card-img-top" alt="image">
+                <img src="./src/${p.image}" class="card-img-top" alt="image">
                 <div class="card-body">
                     <h5 class="card-title">${p.nombre}</h5>
                     <p class="card-text">${p.descripcion}</p>
