@@ -16,7 +16,7 @@ function addItems(div_Productos) {
                 <div class="card-body">
                     <h5 class="card-title">${p.nombre}</h5>
                     <p class="card-text">${p.descripcion}</p>
-                    <p class="card-text1">${p.precio}</p>
+                    <p class="card-text1">$ ${p.precio}</p>
                 </div>
                     <a href="#" class="btn btn-primary configBtn">Agregar</a>
             </div>
