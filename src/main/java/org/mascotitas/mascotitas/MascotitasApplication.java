@@ -13,13 +13,13 @@ public class MascotitasApplication {
 		SpringApplication.run(MascotitasApplication.class, args);
 	}
 
-	@Bean
-	public FilterRegistrationBean<JwtFilter> jwtFilter() {
-		FilterRegistrationBean<JwtFilter> registrationBean = new FilterRegistrationBean<>();
-		registrationBean.setFilter(new JwtFilter());
-		//registrationBean.addUrlPatterns("/api/productos/*");
-		//registrationBean.addUrlPatterns("/api/clientes/*");
-		return registrationBean;
-	}// jwtFilter
+//	@Bean
+//	public FilterRegistrationBean<JwtFilter> jwtFilter() {
+//		FilterRegistrationBean<JwtFilter> registrationBean = new FilterRegistrationBean<>();
+//		registrationBean.setFilter(new JwtFilter());
+//		registrationBean.addUrlPatterns("/api/productos/*");
+//	    registrationBean.addUrlPatterns("/api/clientes/*");
+//		return registrationBean;
+//	}// jwtFilter
 
 }
